@@ -1,0 +1,8 @@
+services:
+#    watch.example:
+#        class: WatchBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    watcher:
+        class: WatchBundle\Service\Watch
+        arguments: [@service_container]

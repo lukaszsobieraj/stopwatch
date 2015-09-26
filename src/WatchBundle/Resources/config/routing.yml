@@ -1,0 +1,14 @@
+watch_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: WatchBundle:Default:index }
+    
+watch_stopwatch:
+    path:     /watchtest
+    defaults: { _controller: WatchBundle:Watch:test }
+    
+    
+watch_watcher:
+    path:     /watch
+    defaults: { _controller: WatchBundle:Watch:watch }
+    
+
